@@ -17,7 +17,8 @@ Repsoitory containing VTR architecture XML files for testing VTR 9 against 3D ar
      3. All routing channels are connected to the interlayer connections
    - Each 3D SB architecture also comes with it's routing resource graph (rrg)
      - This is done since VTR cannot build these 3D SB architectures (Tested on VTR 8.1.0 not VTR 9.0.0)
-     - To use, run VPR using the extra option `--read_rr_graph /path/to/3D-SB-RRG`
+     - The RRG is provided as a zip file, make sure to unzip before using by calling `unzip /path/to/3D-SB-RRG.zip`.
+     - To use, run VPR using the extra option `--read_rr_graph /path/to/3D-SB-RRG.xml`
    - More 3D SB configurations can be generated and tested using [LaZagna](https://www.arxiv.org/abs/2505.05579)
 
      - Variations include:
